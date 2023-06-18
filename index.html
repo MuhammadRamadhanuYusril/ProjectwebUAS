@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merchandise</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Icon Box-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <!--Nav-->
+      <div class="nav container">
+        <!--Logo-->
+        <a href="#" class="logo">Merchandise</a>
+        <!--Cart Icon-->
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        <!--cart-->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!--content-->
+          <div class="cart-content">
+            <div class="cart-box">
+              <img src="img/tshirt.png" alt="" class="cart-img" />
+              <div class="details-box">
+                <div class="cart-product-title">Product Shirt</div>
+                <div class="cart-price">Rp. 109.000</div>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  value="1"
+                  class="cart-quantity"
+                />
+              </div>
+              <!--Remove Item-->
+              <i class="bx bx-trash-alt cart-remove"></i>
+            </div>
+            <!--total-->
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">Rp.0</div>
+            </div>
+            <!--Buy Button-->
+            <button type="button" class="btn-buy">Pay Now</button>
+            <!--Close Cart-->
+            <i class="bx bx-x" id="close-cart"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Produk-->
+    <section class="shop container">
+      <h2 class="section-title">Our Merch</h2>
+      <!--Shop Content-->
+      <div class="shop-content">
+        <!--Box  Nb: foto diupload di blogspot agar di stripe bisa menampilkan gambar-->
+        <!--Box 1 tshirt-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfW5FpksmRyCB6X_UhQa9mpiAqYN0OyB_Zz0t_UmBUqMHTKPL5IBSt2QLoqMYFugMZutPbS-L4BitPuznqEIlfoQD5HXE_HMxlUqtjfbrChICy6cz1UHz5HQnLigZdvrdxLWuuSZMQHF3OkfD2oO28dSqTXciYirtSfnVUOQ2yiUVCBA2fSZaNArn9/s320/tshirt.png"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">T shirt</h2>
+          <span class="price">Rp. 109.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 2 hoodie-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh07bIBYLubt5rfYkXIi5e3tjbem6iePc-G9cCZ6G0X1z8XWydLRWkM7C_0dR2pEx3nEXzwLly2fG3s9Y4Af8aE9MQH_oTQeqv_sJAWm9ss7S8ogCU1whc-X1hATKBVZJYcQj2Cj6yo7EyyLXp7yl37Dhz92BYRR3eqa3HpOuMkzC2wiUtJ4JvRRHcQ/s320/hoodie.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Hoodie</h2>
+          <span class="price">Rp. 399.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 3 Bucket hat -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVbjCLHEZiFwMzSlaXJtTxfQZpPbFK_Z_q2mrt5h_01Lb5yTnQnIDHQcip_Sw9Lam916N-tdpdpZkqUQ3TFW2EKnWz2HrhGQpdpaLKONAZOgBVjL29xckBaTvlxUhl6hu8DaFwaOTB9K5rPoGF1CK5tg236jlN8DrsTBaAhiladN5x4SMMs4jiHe-2/s320/buckethat.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Bucket Hat</h2>
+          <span class="price">Rp. 149.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 4 Water bottle-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTuMzI7_UYmrcm3JFrUBLmu09kD689D5ZfmTeT-rRhkG7G5ZUARu2Xz6OUx5GCRLb2P3wPOMC33g3AvJ2SCopEgOkwwGSHKbVFukavLSLqw_5s8A_3hq6xwJX0bW8UY-ytS_EUVY1W0cPFqar0biPtQKVgltIpgoQuQqZjjbTIJi6NGJCk962U59LF/s320/waterbottle.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Water Bottle 60 oz</h2>
+          <span class="price">Rp. 89.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 5 keychain-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgufopHyoXXMj3LAcJbAEipIfBK2uFy3qwPtfRA5yMCNmSohaif1PdfbgKIV_qZNtd4pQ0WAPRFM-1SUvfoyuHG1_L9w4e5UgnuXb214Zqdh0Krk4-Lhc0d8dXgXQEWfhUom7fE6ViQp3cc36cQNxF-pOR6xXg2eMUXIyTCgkcM2dPPlS6amYPq_fV7/s320/keychain.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">keychain</h2>
+          <span class="price">Rp. 29.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 6 Bracelet-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28wfJoQg1SkhDZE8OjUVcSkcU7dvX64XW802VsMa1QugedTbHClEOJD4EIbfTLY5Y624GfWY6zz6HUpEAlzvb86ksXrZc2rDpKLYcLp8AydSD3At7JS6VdU_e40QlIO6TFopj8k3QYyanlvfXN4ltN-kiKBSEmrBYlK_tMcqiG4lH-liiCLiFMGfm/s320/bracelet.png"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Bracelet</h2>
+          <span class="price">Rp. 23.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 7 tote bag-->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlbrcK_boF1f_XX1mXI-NdUj5ajJnq3weLsIx9wIJf23b-0KMDaN72CyMnOl89SKoY5pDq5hrIJfg_6dyW1W9MPNg0IIPnbUUHS0Zht3GDBNIwD_Jw396q0B_7ZOgA6V4RimJADlDEr3IUkRzm2gKG_75pSIeiL6LQCkLudAQo02xPmXYMb7xydWKY/s320/shoulderbag.jpg"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Tote Bag</h2>
+          <span class="price">Rp. 103.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 8 backpack -->
+        <div class="product-box">
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2S4PKzrtmHKpIkMgfBcNtV6c4ucqiMV5SCNjrCYvkK1pG34RszNuWZeZiK1ZgNoahLXMs2sOGSRtY5a0GOlQFxhnUNpmn7LenC8POkun6zoXz93pukM5DN7v6GtaOXcHCdF5Ju66upRjcNQn3MpTtUqZgXZVkpXHQCRmST0Y5wRKCX_JLXhrHQAvv/s320/backpack.png"
+            alt=""
+            class="product-img"
+          />
+          <h2 class="product-title">Backpack</h2>
+          <span class="price">Rp. 699.000</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--Link to JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
